@@ -86,7 +86,7 @@ body {
     border-radius: 50px;
     right: 15px;
     bottom: 15px;
-    background-image: linear-gradient(to right, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
+    background: #2eafec;
     color: #fff;
     transition: display 0.5s ease-in-out;
     z-index: 99999;
@@ -101,7 +101,7 @@ body {
   
   .back-to-top:hover {
     color: #fff;
-    background: #2eafec;
+    background-image: linear-gradient(to right, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
     transition: background 0.2s ease-in-out;
   }
   
@@ -401,56 +401,6 @@ body {
   
   .about .content p:last-child {
     margin-bottom: 0;
-  }
-  
-  /*--------------------------------------------------------------
-  # Facts
-  --------------------------------------------------------------*/
-  .facts {
-    padding-bottom: 30px;
-  }
-  
-  .facts .count-box {
-    padding: 30px;
-    width: 100%;
-  }
-  
-  .facts .count-box i {
-    display: block;
-    font-size: 44px;
-    color: #149ddd;
-    float: left;
-  }
-  
-  .facts .count-box span {
-    font-size: 48px;
-    line-height: 40px;
-    display: block;
-    font-weight: 700;
-    color: #050d18;
-    margin-left: 60px;
-  }
-  
-  .facts .count-box p {
-    padding: 15px 0 0 0;
-    margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    color: #122f57;
-  }
-  
-  .facts .count-box a {
-    font-weight: 600;
-    display: block;
-    margin-top: 20px;
-    color: #122f57;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    transition: ease-in-out 0.3s;
-  }
-  
-  .facts .count-box a:hover {
-    color: #1f5297;
   }
   
   /*--------------------------------------------------------------
@@ -820,82 +770,7 @@ body {
     bottom: 0;
   }
   
-  /*--------------------------------------------------------------
-  # Services
-  --------------------------------------------------------------*/
-  
-  
-  .services  {
-    padding: 30px ;
-    margin: 30px;
-    overflow: hidden; 
-  }
-  
-  .services .icon-box {
-    margin-bottom: 20px;
-  }
-  
-  .services .icon {
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 54px;
-    height: 54px;
-    background: #149ddd;
-    border-radius: 50%;
-    transition: 0.5s;
-    border: 1px solid #149ddd;
-  }
-  
-  .services .icon i {
-    color: #fff;
-    font-size: 24px;
-  }
-  
-  .services .icon-box:hover .icon {
-    background: #fff;
-  }
-  
-  .services .icon-box:hover .icon i {
-    color: #149ddd;
-  }
-  
-  .services .title {
-    margin-left: 80px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-  }
-  
-  .services .title a {
-    color: #343a40;
-  }
-  
-  .services .title a:hover {
-    color: #149ddd;
-  }
-  
-  .services .description {
-    margin-left: 80px;
-    line-height: 24px;
-    font-size: 14px;
-  }
-  
-  .services a * {
-    color: #FFD700;
-    list-style: none;
-    margin-left: 15px;
-    line-height: 24px;
-    font-size: 22px;
-    
-  }
-  
-  .services * {
-    list-style-type: none;
-  }
-  
-  
+
   
   /*--------------------------------------------------------------
   # award
@@ -903,8 +778,10 @@ body {
   
   
   .award  {
-    padding: 30px ;
-    margin: 30px;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    margin-left: 10px;
+    margin-right: 10px;
     overflow: hidden; 
   }
   
@@ -936,7 +813,7 @@ body {
     list-style: none;
     margin-left: 0px;
     line-height: 24px;
-    font-size: 32px;
+    font-size: 26px;
     
   }
   
@@ -950,7 +827,7 @@ body {
     -webkit-text-fill-color: transparent;
     margin-left: 15px;
     line-height: 24px;
-    font-size: 26px;
+    font-size: 22px;
     
   }
   
@@ -1056,243 +933,6 @@ body {
     font-size: 16px
   }
   
-  /*--------------------------------------------------------------
-  # Contact
-  --------------------------------------------------------------*/
-  
-  .contact  {
-    padding: 30px ;
-    margin: 30px;
-    overflow: hidden; 
-  }
-  
-  .contact .info {
-    padding: 30px;
-    background: #fff;
-    width: 100%;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  }
-  
-  .contact .info i {
-    font-size: 20px;
-    color: #149ddd;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #dff3fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .contact .info h4 {
-    padding: 0 0 0 60px;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #050d18;
-  }
-  
-  .contact .info p {
-    padding: 0 0 10px 60px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    color: #173b6c;
-  }
-  
-  .contact .info .email p {
-    padding-top: 5px;
-  }
-  
-  .contact .info .social-links {
-    padding-left: 60px;
-  }
-  
-  .contact .info .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-    margin-right: 10px;
-  }
-  
-  .contact .info .social-links a:hover {
-    background: #149ddd;
-    color: #fff;
-  }
-  
-  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #149ddd;
-    color: #fff;
-  }
-  
-  .contact .php-email-form {
-    width: 100%;
-    padding: 30px;
-    background: #fff;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  }
-  
-  .contact .php-email-form .form-group {
-    padding-bottom: 8px;
-  }
-  
-  .contact .php-email-form .validate {
-    display: none;
-    color: red;
-    margin: 0 0 15px 0;
-    font-weight: 400;
-    font-size: 13px;
-  }
-  
-  .contact .php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: left;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  .contact .php-email-form .error-message br + br {
-    margin-top: 25px;
-  }
-  
-  .contact .php-email-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #18d26e;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  .contact .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-  }
-  
-  .contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
-  }
-  
-  .contact .php-email-form .form-group {
-    margin-bottom: 15px;
-  }
-  
-  .contact .php-email-form label {
-    padding-bottom: 8px;
-  }
-  
-  .contact .php-email-form input, .contact .php-email-form textarea {
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-  }
-  
-  .contact .php-email-form input {
-    height: 44px;
-  }
-  
-  .contact .php-email-form textarea {
-    padding: 10px 15px;
-  }
-  
-  .contact .php-email-form button[type="submit"] {
-    background: #149ddd;
-    border: 0;
-    padding: 10px 24px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 4px;
-  }
-  
-  .contact .php-email-form button[type="submit"]:hover {
-    background: #37b3ed;
-  }
-  
-  @-webkit-keyframes animate-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes animate-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  /*--------------------------------------------------------------
-  # Breadcrumbs
-  --------------------------------------------------------------*/
-  .breadcrumbs {
-    padding: 20px 0;
-    background: #f9f9f9;
-  }
-  
-  .breadcrumbs h2 {
-    font-size: 26px;
-    font-weight: 300;
-  }
-  
-  .breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-  }
-  
-  .breadcrumbs ol li + li {
-    padding-left: 10px;
-  }
-  
-  .breadcrumbs ol li + li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #0e2442;
-    content: "/";
-  }
-  
-  @media (max-width: 768px) {
-    .breadcrumbs .d-flex {
-      display: block !important;
-    }
-    .breadcrumbs ol {
-      display: block;
-    }
-    .breadcrumbs ol li {
-      display: inline-block;
-    }
-  }
   
   /*--------------------------------------------------------------
   # Portfolio Details
@@ -1415,9 +1055,128 @@ body {
     }
   }
 
- /*--------------------------------------------------------------
-  # Dwonload button
-  --------------------------------------------------------------*/
+/* Dark theme */
+
+.mailtoui-modal {
+  color: #fff;
+}
+.mailtoui-modal-body{
+  background-color: #040b14;
+}
+
+
+.mailtoui-modal-head {
+  background-color: #040b14;
+}
+
+
+
+.mailtoui-modal-title {
+  background-image: linear-gradient(to right top, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.mailtoui-modal-close:focus,
+.mailtoui-modal-close:hover {
+  background-image: linear-gradient(to right top, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mailtoui-button:focus .mailtoui-button-content {
+  background-color: #fff;
+  color: #212431;
+}
+
+.mailtoui-button-content {
+  border-radius: 30px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0;
+  transition: color 0.4s linear; 
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+}
+
+.mailtoui-button-content,
+.mailtoui-button-copy {
+  border-radius: 30px;
+  background-color: #fff;
+  color: #212431;
+}
+
+.mailtoui-button-copy{
+  border-radius: 30px;
+}
+
+
+.mailtoui-button-copy:hover,
+.mailtoui-button-copy:focus {
+  background-image: linear-gradient(to right top, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
+  color: #fff;
+}
+
+.mailtoui-email-address {
+  border-radius: 30px;
+  background-image: linear-gradient(to right top, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #212431;
+}
+
+
+.mailtoui-button-content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8490ff), color-stop(#729dff), color-stop(#65a9ff), color-stop(#5fb4ff), to(#62bdfc));
+  background-image: linear-gradient(to right, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
+  z-index: 1;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+          transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.mailtoui-button-content:hover{
+  color: #fff;
+}
+
+.mailtoui-button-content:hover::before{
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  color: #fff !important;
+  z-index: -1;
+}
+
+.mailtoui-button-content:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+
+
+
 
   
   
