@@ -1,14 +1,21 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  font-style: normal;
 }
 
 a {
   color: #149ddd;
   text-decoration: none;
+  font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -33,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
   border: 0;
   overflow: hidden;
+  border: 2px solid #8490ff;
 }
 
 .btn::before {
@@ -45,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -webkit-gradient(linear, left top, right top, from(#8490ff), color-stop(#729dff), color-stop(#65a9ff), color-stop(#5fb4ff), to(#62bdfc));
   background-image: linear-gradient(to right, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
   z-index: 1;
-  border-radius: 5px;
+  border-radius: 30px;
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
@@ -153,7 +161,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -234,14 +243,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   background-image: -webkit-gradient(linear, left top, right top, from(#8490ff), color-stop(#729dff), color-stop(#65a9ff), color-stop(#5fb4ff), to(#62bdfc));
   background-image: linear-gradient(to right, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active > a i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -351,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   # Sections General
   --------------------------------------------------------------*/
 section {
-  padding: 10px;
+  padding: 30px;
   overflow: hidden;
 }
 
@@ -360,14 +373,15 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  margin-bottom: 40px;
   position: relative;
   color: #173b6c;
 }
@@ -429,6 +443,12 @@ section {
   padding: 30px;
   margin: 30px;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .skills .progress {
@@ -471,15 +491,14 @@ section {
   # Resume
   --------------------------------------------------------------*/
 .resume {
-  padding: 30px;
-  margin: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
   overflow: hidden;
 }
 
 .resume .resume-title {
   font-size: 30px;
   font-weight: 800;
-  margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
   padding-bottom: 20px;
@@ -490,6 +509,7 @@ section {
   margin-top: -2px;
   border-left: 2px solid #f9f9ff;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .resume .resume-item h4 {
@@ -604,7 +624,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   background-image: -webkit-gradient(linear, left top, right top, from(#8490ff), color-stop(#729dff), color-stop(#65a9ff), color-stop(#5fb4ff), to(#62bdfc));
   background-image: linear-gradient(to right, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
   -webkit-background-clip: text;
@@ -723,7 +744,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.projet #projet-flters li:hover, .projet #projet-flters li.filter-active {
+.projet #projet-flters li:hover,
+.projet #projet-flters li.filter-active {
   background-image: -webkit-gradient(linear, left top, right top, from(#8490ff), color-stop(#729dff), color-stop(#65a9ff), color-stop(#5fb4ff), to(#62bdfc));
   background-image: linear-gradient(to right, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
   -webkit-background-clip: text;
@@ -809,22 +831,13 @@ section {
   # award
   --------------------------------------------------------------*/
 .award {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
   overflow: hidden;
 }
 
 .award .icon-box {
   margin-bottom: 20px;
-}
-
-.award .title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
 }
 
 .award .title a {
@@ -863,109 +876,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Testimonials
-  --------------------------------------------------------------*/
-.testimonials .testimonial-item {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  text-align: center;
-  min-height: 320px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
-  font-size: 26px;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 15px 15px;
-  padding: 20px;
-  background: #fff;
-  position: relative;
-  margin-bottom: 35px;
-  border-radius: 6px;
-  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials .testimonial-item p::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 20px solid #fff;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
-  position: absolute;
-  bottom: -20px;
-  left: calc(50% - 20px);
-}
-
-.testimonials .owl-nav, .testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.testimonials .owl-dot.active {
-  background-color: #149ddd !important;
-}
-
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
-}
-
-.testimonials .certif * {
-  color: #050d18;
-  list-style: none;
-  margin-left: 15px;
-  line-height: 24px;
-  font-size: 16px;
-}
-
-/*--------------------------------------------------------------
   # Portfolio Details
   --------------------------------------------------------------*/
 .projet-details {
@@ -981,7 +891,8 @@ section {
   z-index: 1;
 }
 
-.projet-details .projet-details-carousel .owl-nav, .projet-details .projet-details-carousel .owl-dots {
+.projet-details .projet-details-carousel .owl-nav,
+.projet-details .projet-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -1204,5 +1115,44 @@ section {
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+/* end mailtoui */
+.skills .subheading {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.skills .list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.skills .list-inline-item {
+  display: inline-block;
+}
+
+.skills .list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.skills .devicons {
+  font-size: 3rem;
+  font-style: normal;
+}
+
+.skills .devicons .list-inline-item i:hover {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#8490ff), color-stop(#729dff), color-stop(#65a9ff), color-stop(#5fb4ff), to(#62bdfc));
+  background-image: linear-gradient(to right top, #8490ff, #729dff, #65a9ff, #5fb4ff, #62bdfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills .mb-3,
+.skills .my-3 {
+  margin-bottom: 1rem !important;
 }
 /*# sourceMappingURL=style.css.map */
