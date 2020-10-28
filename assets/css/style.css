@@ -152,6 +152,10 @@ h6 {
   border: 8px solid #2c2f3f;
 }
 
+.img-fluid {
+  border-radius: 30px;
+}
+
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
@@ -489,6 +493,7 @@ section {
 }
 
 .card-container {
+  border: 1px solid #8490ff;
   background: transparent;
   border-radius: 25px;
   color: #8490ff;
@@ -523,7 +528,6 @@ section {
 }
 
 .skil {
-  background-color: #1F1A36;
   text-align: left;
   padding: 15px;
   margin-top: 30px;
@@ -536,8 +540,8 @@ section {
 }
 
 .skil ul li {
-  border: 1px solid #2D2747;
-  border-radius: 2px;
+  background-color: #c4daf7;
+  border-radius: 10px;
   display: inline-block;
   font-size: 12px;
   margin: 0 7px 7px 0;

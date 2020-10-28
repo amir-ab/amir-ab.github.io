@@ -471,6 +471,7 @@ section {
 }
 
 .card-container {
+  border: 1px solid #8490ff;
   background: transparent;
   border-radius: 25px;
   color: #8490ff;
@@ -505,7 +506,7 @@ section {
 
      
   .skil {
-  background-color: #1F1A36;
+
   text-align: left;
   padding: 15px;
   margin-top: 30px;
@@ -518,6 +519,7 @@ section {
   }
    
   .skil ul li {
+  background-color:#1F1A36 ;
   border: 1px solid #2D2747;
   border-radius: 2px;
   display: inline-block;
